@@ -27,7 +27,7 @@ const App = () => {
   };
 
   const handleKeyPress = (e) => {
-    e === "Enter" && searchMovies(searchTerm);
+    e.key === "Enter" && searchMovies(searchTerm);
   };
 
   // fetch(apiUrl).then((response) => response.json()).then((data) => console.log(data));
