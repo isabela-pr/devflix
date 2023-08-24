@@ -15,8 +15,8 @@ const Footer = ({ children, link }) => {
           {children}
         </a>
       </p>
-        <SocialLinks icon={"logo-github"} href={"#"} />
-        <SocialLinks icon={"logo-instagram"} href={"#"} />
+        <SocialLinks icon={"logo-github"} href={"https://github.com/isabela-pr"} />
+        <SocialLinks icon={"logo-instagram"} href={"https://www.instagram.com/okisabela_/"} />
         <SocialLinks icon={"logo-twitch"} href={"#"} />
         <SocialLinks icon={"logo-twitter"} href={"#"} />
     </footer>
