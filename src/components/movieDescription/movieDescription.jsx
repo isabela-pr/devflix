@@ -12,7 +12,7 @@ const MovieDesc = ({ movies, click }) => {
     fetch(apiUrl)
       .then((response) => response.json())
       .then((data) => setMoviesDesc(data))
-      .catch((error) => console.log("Erro: ", error));
+      .catch((error) => console.error("Erro: ", error));
   }, [apiUrl]);
   const movie = movieDesc;
 
