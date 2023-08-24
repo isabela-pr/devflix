@@ -100,6 +100,23 @@
   text-align: justify;
 }
 
+@media screen and (max-width: 760px) {
+  .movieModal{
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .movieModal{
+    width: 320px;
+    margin-top: 2em;
+  }
+
+  .desc{
+    padding-bottom: 3.5em;
+  }
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
