@@ -100,21 +100,42 @@
   text-align: justify;
 }
 
-@media screen and (max-width: 760px) {
+/* coisas para tela de tablet */
+@media screen and (max-width: 768px) {
   .movieModal{
     width: 550px;
   }
+
+  .containerMisc{
+    padding-top: 1em;
+  }
 }
 
-@media screen and (max-width: 425px) {
+/* coisas para celular aqui */
+@media screen and (max-width: 430px) {
   .movieModal{
     width: 320px;
     margin-top: 2em;
+  }
+  
+  .movieType h1{
+    font-size: 20pt;
+    
+  }
+
+  .movieInfo img{
+    height: 220px;
+  }
+
+  .containerMisc{
+    padding-top: 6em;
+    display: block;
   }
 
   .desc{
     padding-bottom: 3.5em;
   }
+
 }
 
 @keyframes fadeIn {
